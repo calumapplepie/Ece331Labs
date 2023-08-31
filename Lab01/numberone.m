@@ -1,6 +1,14 @@
 clear all
-for i = 0:20
-        x(i+1)= cos(3*pi*i/20);
-end
-plot(x)
-save x1 xcd
+clf
+H2 = [ones(1,21) zeros(1,87) ones(1,20)];
+h2 = abs(ifft(H2));
+k2 = 0:127;
+H3 = [ones(1,41) zeros(1,175) ones(1,40)];
+h3 = abs(ifft(H3));
+k3 = 0:255;
+figure(1)
+plot(H2)
+figure(2)
+plot(k2,h2)
+figure(3)
+plot(k3,h3);
