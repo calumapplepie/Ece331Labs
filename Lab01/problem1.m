@@ -1,3 +1,6 @@
+clear all
+clf
+
 for i=0:201
   x(i+1)=cos(3*pi*i/20);
   if(i>=50 & i <= 90 & ~(i>= 70 & i<= 75))
