@@ -15,7 +15,7 @@ mesh(A)
 figure(2)
 contour(A)
 figure(3)
-plot(abs(fft2(A)))
+mesh(abs(fft2(A)))
 
 inv(A)
 det(A)
