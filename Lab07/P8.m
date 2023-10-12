@@ -11,5 +11,5 @@ for i=t;
 end
 Y = abs(fft(y))
 Ey=y*y' 
-EY = Y*Y'
+EY = Y*Y' / length(t);
 Ey == EY
