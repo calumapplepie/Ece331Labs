@@ -1,3 +1,5 @@
+clear
+clf
 k=1; yi(1) =0;
 t =-10:0.01:10
 for i=t; 
