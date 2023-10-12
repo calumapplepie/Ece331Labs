@@ -11,7 +11,7 @@ for i=t;
 end
 yd = [diff(y),0]
 step= 1/0.01;
-f = -step/2:step/length(t):step/2;
+f = -step/2:step/length(t):step/2-step/length(t);
 
 figure(1)
 subplot(2,1,1), plot(t,y);
