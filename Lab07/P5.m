@@ -14,5 +14,6 @@ f = -step/2:step/length(t):step/2;
 figure(1)
 subplot(2,1,1), plot(t,y);
 subplot(2,1,2), plot(t,yi);
+figure(2)
 subplot(2,1,1), plot(f,fftshift(abs(fft(y))));
 subplot(2,1,2), plot(f,fftshift(abs(fft(yi))));
