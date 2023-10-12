@@ -9,7 +9,7 @@ for i=t;
 	end
 	k = k+1;
 end
-Y = abs(fft(y))
+Y = abs(fft(y));
 Ey=y*y' 
-EY = Y*Y' / length(t);
+EY = Y*Y' / length(t)
 Ey == EY
