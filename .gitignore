@@ -1,2 +1,4 @@
 *.asv
 *.mat
+*.mexw64
+**/slprj/
