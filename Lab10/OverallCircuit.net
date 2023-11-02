@@ -18,10 +18,10 @@ C4 N006 0 1n
 C5 VOUT N003 47n
 R10 N010 0 1Meg
 R11 VOUT N010 .00001
-Vcc 0 vcc 15
-Vnn 0 vnn 15
+V1 VCC 0 15
+V2 0 VNN 15
+V3 VIN 0 0 AC 1
 .ac lin 100 1 3k
 .include "C:\Users\mcconncm\Documents\MATLAB\Lab10\lm324.sub"
-Vin VIN 0 AC 1
 .backanno
 .end
