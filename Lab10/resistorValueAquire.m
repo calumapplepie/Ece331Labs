@@ -29,6 +29,6 @@ H1=1./(1+C*R1*1j*w);
 H2=1./((1j*w).^2*C11*C21*R11*R21+1j*w*(C21*(R21+R11))+1);
 H3=1./((1j*w).^2*C12*C22*R12*R22+1j*w*(C22*(R22+R12))+1);
 %figure(1)
-%plot(w/(2*pi),abs(H1.*H2.*H3))
+plot(w/(2*pi),abs(H1.*H2.*H3))
 %figure(2)
 %plot(w/(2*pi),abs(H1.*H2))
