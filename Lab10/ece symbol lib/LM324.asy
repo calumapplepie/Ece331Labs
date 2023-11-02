@@ -1,0 +1,27 @@
+Version 4
+SymbolType CELL
+LINE Normal 32 0 -32 -32
+LINE Normal -32 32 32 0
+LINE Normal -32 -32 -32 32
+LINE Normal 0 16 0 32
+LINE Normal 0 -32 0 -16
+TEXT -19 1 Left 0 LM324
+TEXT -11 -24 Left 0 VCC
+TEXT -8 23 Left 0 VNN
+SYMATTR Prefix X
+SYMATTR Value LM324
+PIN -32 -16 LEFT 4
+PINATTR PinName +
+PINATTR SpiceOrder 1
+PIN -32 16 LEFT 8
+PINATTR PinName -
+PINATTR SpiceOrder 2
+PIN 0 -32 NONE 8
+PINATTR PinName Vcc
+PINATTR SpiceOrder 3
+PIN 0 32 NONE 8
+PINATTR PinName Vnn
+PINATTR SpiceOrder 4
+PIN 32 0 NONE 8
+PINATTR PinName Vout
+PINATTR SpiceOrder 5
