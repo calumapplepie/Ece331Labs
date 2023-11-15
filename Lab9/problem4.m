@@ -25,3 +25,7 @@ a3 = [1,0,2,3,4,6]
 H1 = tf(bt1, at1)
 H2 = tf(bt2, at2)
 H3 = tf(b3,  a3)
+
+prob1 = [z1,p1];
+prob2 = [z2,p2];
+prob3 = [z3,p3];
