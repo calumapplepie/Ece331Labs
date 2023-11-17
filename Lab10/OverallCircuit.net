@@ -15,7 +15,7 @@ C5 VOUT N003 21.18n
 V1 VCC 0 5
 V2 0 VNN 5
 V3 VIN 0 SINE(0 2.05 1500) AC 1
-.tran .01
+.ac dec 100 1 10000Hz
 .include "C:\Users\mcconncm\Documents\MATLAB\Lab10\lm324.sub"
 .backanno
 .end
