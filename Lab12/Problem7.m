@@ -1,0 +1,2 @@
+clear;
+syms z n;
